@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboCore | Búsqueda</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><span>RC</span> RoboCore</a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="nosotros.html">Quiénes somos</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="carrito.html">Carrito <span id="cart-count">0</span></a></li>
+                <li><a href="busqueda.html">Buscar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="page">
+        <section class="section narrow">
+            <p class="eyebrow">BUSCADOR DE COMPONENTES</p>
+            <h1>Buscar productos</h1>
+            <p>Busca un componente, herramienta o kit.</p>
+            <form id="search-form"><label for="search">¿Qué estás buscando?</label>
+                <div class="search-row"><input type="text" id="search" placeholder="Ej. sensores"><button
+                        type="submit">Buscar</button></div>
+            </form>
+            <div id="search-results" class="results">
+                <p>Escribe un término para realizar una búsqueda.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 RoboCore</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboCore | Carrito</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a class="logo" href="index.html"><span>RC</span> RoboCore</a>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="nosotros.html">Quiénes somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito <span id="cart-count">0</span></a></li>
+            <li><a href="busqueda.html">Buscar</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="page">
+    <section class="section">
+        <p class="eyebrow">PREPARA TU PROYECTO</p>
+        <h1>Carrito de compra</h1>
+        <div class="cart-item">
+            <div>
+                <span class="tag">MICROCONTROLADOR</span>
+                <h2>Arduino UNO R3</h2>
+                <p>$299.00 c/u</p>
+            </div>
+            <label>Cantidad: <input class="quantity" type="number" min="0" step="1" value="1" data-price="299"></label>
+        </div>
+        <div class="cart-item">
+            <div>
+                <span class="tag">MOTORES Y MOVIMIENTO</span>
+                <h2>Micro Servo SG90</h2>
+                <p>$55.00 c/u</p>
+            </div>
+            <label>Cantidad: <input class="quantity" type="number" min="0" step="1" value="2" data-price="55"></label>
+        </div>
+        <div class="cart-item">
+            <div>
+                <span class="tag">SENSOR</span>
+                <h2>Sensor ultrasónico HC-SR04</h2>
+                <p>$59.00 c/u</p>
+            </div>
+            <label>Cantidad: <input class="quantity" type="number" min="0" step="1" value="1" data-price="59"></label>
+        </div>
+        <div class="total-box"><span>TOTAL DEL PROYECTO</span><strong id="cart-total">$468.00</strong></div>
+    </section>
+</main>
+<footer><p>&copy; 2026 RoboCore</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
